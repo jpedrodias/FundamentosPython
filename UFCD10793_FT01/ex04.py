@@ -2,7 +2,6 @@
 Escreve um programa que calcule o volume de uma esfera. O valor do raio deverá ser
 introduzido pelo utilizador (deverá ser criado o ficheiro ex04.py).
 '''
-
 from math import pi as PI
 
 raio = float(input('Introduza o raio da esfera: '))
