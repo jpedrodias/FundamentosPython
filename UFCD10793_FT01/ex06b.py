@@ -7,7 +7,6 @@ exemplo:
 python ex06.py 1 10 20
 devolve 3600 + 60 + 20 = 4220
 '''
-
 import sys
 
 def converte_para_segundos(horas, minutos, segundos):
