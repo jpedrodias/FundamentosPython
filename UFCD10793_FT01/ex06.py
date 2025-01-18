@@ -2,10 +2,6 @@
 Faz um programa que receba três parâmetros inteiros (horas, minutos e segundos) e
 converta o resultado para segundos, devolvendo o output para o ecrã (deverá ser
 criado o ficheiro ex06.py).
-
-exemplo:
-python ex06.py 1 10 20
-devolve 3600 + 60 + 20 = 4220
 '''
 
 horas = int(input('Introduza as horas: '))
