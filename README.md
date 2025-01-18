@@ -1,5 +1,7 @@
-# FundamentosPython
-> Formação de Fundamentos de Python
+# Fundamentos de Python - 
+> Entidade Formadora: EISnt
+> Duração: 50h
+> 2025-01 - 2025-04
 
 
 ## Windows: Configuração inicial do Ambiente Virtual 
