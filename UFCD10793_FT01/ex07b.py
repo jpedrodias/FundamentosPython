@@ -6,7 +6,6 @@ ex07.py).
 
 Exemplo: python ex07.py 100 10
 '''
-
 import sys
 
 def calcula_consumo(distancia, litros, precisao=2):
