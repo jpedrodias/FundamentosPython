@@ -1,5 +1,6 @@
 # Correr Python dentro do Docker:
 
+
 **Vantagens:**
 * Zero alterações ao sistema;
 * Zero problemas de "it runs on my machine..."
@@ -18,6 +19,8 @@ Outros `sabores`:
 Mais `TAGS` (versões) em https://hub.docker.com/_/python
 
 
+
+* * *
 * * *
 
 
@@ -50,7 +53,7 @@ pip install -r requirements.txt
 ```
 
 
-
+* * *
 * * *
 
 
