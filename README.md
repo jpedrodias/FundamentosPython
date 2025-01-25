@@ -1,4 +1,5 @@
 # Fundamentos de Python
+
 > Entidade Formadora: EISnt
 > 
 > Duração: 50h
@@ -6,7 +7,11 @@
 > 2025-01 - 2025-04
 
 
-## Windows: Configuração inicial do Ambiente Virtual 
+* * * 
+
+## Windows: 
+
+### Configuração inicial do Ambiente Virtual 
 ```bash
 python -m venv C:\TEMP\fundpython --prompt "Fundamentos de Python"
 ```
@@ -16,7 +21,7 @@ python -m venv C:\TEMP\fundpython --prompt "Fundamentos de Python"
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope LocalMachine
 ```
 
-## Windows: Ativação do ambiente virtual
+### Ativação do ambiente virtual
 
 **em PowerShell**:
 ```bash
@@ -28,17 +33,30 @@ C:\TEMP\fundpython\Scripts\Activate.ps1
 C:\TEMP\fundpython\Scripts\activate.bat
 ```
 
-## Linux: Configuração de um ambiente virtual
+* * * 
+
+## Linux: 
+
+### Configuração de um ambiente virtual
 ```bash
 python3 -m venv /tmp/fundpython --prompt "Fundamentos de Python"
 ```
 
-## Linux: Ativação do ambiente virtual
+### Ativação do ambiente virtual
 ```bash
 source /tmp/fundpython/bin/activate
 ```
+
+
+* * * 
 
 ## Instalação de prerequesitos
 ```bash
 pip install -r requirements.txt
 ```
+* ipython - Um interpretador interativo mais avançado que o default do Python;
+* jupyterlab - Um ambiente de trabalho interativo para criação de Blocos de notas;
+* numpy - Biblioteca para cálculos numéricos eficientes, como matrizes e álgebra linear;
+* pandas - Biblioteca para manipulação e análise de dados em tabelas;
+* seaborn - Biblioteca para visualização de dados que extende o MapPlotLib.
+* ...
