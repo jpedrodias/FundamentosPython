@@ -1,4 +1,6 @@
 '''
+Exercício 4 - calcula o volume de uma esfera (versão mais completa)
+
 Escreve um programa que calcule o volume de uma esfera. O valor do raio deverá ser
 introduzido pelo utilizador (deverá ser criado o ficheiro ex04.py).
 '''
