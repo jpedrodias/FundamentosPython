@@ -1,5 +1,8 @@
 <h1>Ficha de Trabalho 01</h1>
+<small>2025-01-25</small>
+<br>
 
+<hr>
 <ol>
 <li> Cria uma pasta com o nome UFCD10793_FT01.</li>
 
