@@ -1,4 +1,4 @@
-<h1> Folha de Trabalho 01</h1>
+<h1>Folha de Trabalho 01</h1>
 
 <ol>
 <li> Cria uma pasta com o nome UFCD10793_FT01.</li>
@@ -14,7 +14,7 @@ devolva o se dobro.
 <li>. Escreve um programa que calcule o volume de uma esfera. O valor do raio deverá ser introduzido pelo utilizador (deverá ser criado o ficheiro ex04.py). 
 
 
-$V = 4/3 * \pi * R ^ 3 $
+$V = \frac{4}{3} * \pi * R ^ 3 $
 </li>
 
 <li> Sejam a e b os catetos de um triângulo retângulo, faz um programa que devolva o valor da hipotenusa. (deverá ser criado o ficheiro ex05.py)
