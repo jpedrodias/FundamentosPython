@@ -10,5 +10,6 @@
 * * * 
 
 Preparação do sistema usando:
-* Python Virtual Environment [here](system_prep/python_venv.md)
-* Python on Docker
+* run Python inside a Virtual Environment [here](system_prep/python_venv.md)
+* run Python inside a Docker container [here](system_prep/python_docker.md)
+* run Python on Dev Containers (...)
