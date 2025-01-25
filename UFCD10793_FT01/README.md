@@ -1,4 +1,4 @@
-<h1>Folha de Trabalho 01</h1>
+<h1>Ficha de Trabalho 01</h1>
 
 <ol>
 <li> Cria uma pasta com o nome UFCD10793_FT01.</li>
@@ -33,4 +33,6 @@ ex07.py).
 </li>
 
 </ol>
+<hr>
+
 
