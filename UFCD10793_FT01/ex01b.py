@@ -5,6 +5,9 @@ Módulo math
 import math | from math import sqrt
 - permite aceder a funções matemáticas
 
+Mais sobre Strings
+https://docs.python.org/pt-br/3.13/tutorial/inputoutput.html
+
 '''
 from math import sqrt
 
