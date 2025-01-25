@@ -1,5 +1,5 @@
 '''
-Exercício 1b - modulo math + formatação de strings
+Exercício 2 - modulo math + formatação de strings
 
 Módulo math
 import math | from math import sqrt
