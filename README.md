@@ -9,3 +9,6 @@
 
 * * * 
 
+Preparação do sistema usando:
+* Python Virtual Environment [here](system_prep/python_env.md)
+* Python on Docker
