@@ -12,7 +12,7 @@ https://docs.python.org/pt-br/3.13/tutorial/inputoutput.html
 
 from math import sqrt
 
-numero = int(input("Digite um número: "))
+numero = int(input('Digite um \"número\" inteiro:\n '))
 raizquadrada = sqrt(numero)
 
 # Print com multiplos argumentos
