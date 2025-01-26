@@ -1,10 +1,16 @@
 # Correr Python dentro do Docker com Dev Containers:
-Correr Python em venv | Docker | Dev Conatiners
 
 - Instalar a extensão "Dev Containers" no vscode
 - Em `command palette` escrever "Dev Containers"
-- Add ...
-
+- Add Dev Container COnfiguration Files...
+- Add to user workspace
+- Show all Templates
+- Python 3
+- Python 3.12-bookworm
+- postgresql
+- postgresql-client
+- Editar ficheiro .\devcontainer\devcontainer.json
+- alterar `name` para "Fundamentos de Python"
 
 
 [em construção - testes]
