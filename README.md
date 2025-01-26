@@ -10,6 +10,6 @@
 * * * 
 
 Preparação do sistema usando:
-* run Python inside a Virtual Environment [here](system_prep/python_venv.md)
-* run Python inside a Docker container [here](system_prep/python_docker.md)
-* run Python on Dev Containers (...)
+* Correr Python dentro de um Ambiente Virtual » [abrir Python venv](system_prep/python_venv.md)
+* Correr Python dentro de um contentor Docker » [abrir Python Docker](system_prep/python_docker.md)
+* Correr Python usando a extensão Dev Containers (Remote Containers) » [abrir Dev Containers](system_prep/python_dev_containers.md)
