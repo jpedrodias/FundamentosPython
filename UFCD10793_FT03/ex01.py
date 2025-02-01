@@ -4,13 +4,13 @@ Escreve um programa que solicite um número inteiro ao utilizador e caso o mesmo
 '''
 
 # Input
-num = input("Insira um número inteiro: ")
+num = input('Insira um número inteiro: ')
 num = int(num)
 
 # Process
 if num > 20:
     result = round(num / 2, 2)
-    print(f"O resultado da divisão de {num} por 2 é {result}")
+    print(f'O resultado da divisão de {num} por 2 é {result}')
 else:
-    print(f"O número {num} não é maior que 20.")
+    print(f'O número {num} não é maior que 20.')
 
