@@ -26,7 +26,8 @@ apresente a média das mesmas da seguinte forma:
 
 <li> Escreve um programa que solicite a temperatura em Fahrenheit (F), ao utilizador, e a converta para grau Celsius (C), devolvendo o resultado da conversão.
 
-Use a fórmula: $ C = 5 * ((F - 32) / 9)$
+Use a fórmula: $C = 5 * ((F - 32) / 9)$
+
 </li>
 
 
