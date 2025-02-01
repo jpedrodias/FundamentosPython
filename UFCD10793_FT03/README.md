@@ -56,12 +56,12 @@ Escreve um programa para classificar um triângulo de acordo com o comprimento d
 O Índice de Massa Corporal (IMC) é utilizado para medir o peso ideal de uma pessoa. 
 Escreve um programa que peça o nome, a idade, o peso e a altura do utilizado e que, de seguida, calcule e mostre o resultado do seu IMC e classifique esse resultado de acordo com as seguintes condições: 
 <ul>
-<li>IMC &lt;17 - Muito abaixo do peso ideal 
-<li>17 &lt;=IMC&lt18,5 - Abaixo do peso 
-<li>18,5&lt;=IMC&lt;25 - Peso normal 
-<li>25&lt;=IMC&lt;30 - Acima do peso 
-<li>30&lt;=IMC&lt;35 - Obesidade I 
-<li>35&lt;=IMC&lt;40 - Obesidade II (severa) 
+<li>IMC &lt; 17,0 - Muito abaixo do peso ideal 
+<li>17,0 &lt;= IMC &lt; 18,5 - Abaixo do peso 
+<li>18,5 &lt;= IMC &lt; 25,0 - Peso normal 
+<li>25,0 &lt;= IMC &lt; 30,0 - Acima do peso 
+<li>30,0 &lt;= IMC &lt; 35,0 - Obesidade I 
+<li>35,0 &lt;= IMC &lt; 40,0 - Obesidade II (severa) 
 <li>IMC&gt;=40 - Obesidade III (mórbida)
 </ul>
 Nota: IMC=massa/(altura*altura)
