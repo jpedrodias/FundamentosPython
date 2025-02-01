@@ -1,14 +1,15 @@
 '''
-Exercício 4 - função len (versão mais completa)
-Escreve um programa que solicite a temperatura em Fahrenheit (F), ao utilizador, e a converta para grau Celsius (C), devolvendo o resultado da conversão.
+Exercício 5 - função conversão unidades
+Escreve um programa que faça a conversão para kms, de um dado valor em metros.
 '''
 
-fahrenheit = input('Insere a temperatura em Fahrenheit: ')
 
-fahrenheit = float(fahrenheit)
+# Obrigado à Infopédia por disponibilizar a informação sobre a palavra kilómetro
+# https://www.infopedia.pt/dicionarios/lingua-portuguesa/kil%C3%B3metro
+distancia_kms = input('Insere o valor em kilometros: ')
 
-celsius = (fahrenheit - 32) * 5.0/9.0
+distancia_kms = float(distancia_kms)
 
-celsius = round(celsius, 2)
+distancia_metros = distancia_kms * 1000
 
-print(f'A temperatura em graus Celsius é {celsius}')
+print(f'A distância em metros é {distancia_metros}')
