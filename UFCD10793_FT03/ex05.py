@@ -5,7 +5,7 @@ Escreva um programa que verifique se um determinado número introduzido pelo uti
 
 # Input
 num = input('Insira um número inteiro: ')
-num = int(num)
+num = float(num)
 
 # Process
 if num > 0:
