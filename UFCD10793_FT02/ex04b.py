@@ -5,6 +5,7 @@ Escreve um programa que solicite duas notas ([nota1] e [nota2]) ao utilizador e 
 "A média das notas [nota1] e [nota2] é [média]."
 '''
 
+# Solicitar as notas ao utilizador
 notas = []
 nota = ''
 while nota is not None:
@@ -18,11 +19,15 @@ while nota is not None:
     if nota:
         notas.append(nota)
 
+
+# DEBUG: Apenas para efeitos de debug - apresenta o número de notas inseridas
 print(f'Inseridas {len(notas)} notas')
 
-soma = sum(notas)
-media = soma / len(notas)
+# Calcular a média das notas
+media = sum(notas) / len(notas)
 
+# Arredondar a média a duas casas decimais
 media = round(media, 2)
 
+# Apresentar a média das notas
 print(f'A média das notas é {media}')
