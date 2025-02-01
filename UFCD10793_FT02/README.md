@@ -10,26 +10,25 @@
 </li>
 
 <li> Cria agora um novo ficheiro python (extensão .py) com o nome ex03.
-Dentro deste ficheiro escreve um programa que receba, como parâmetro um inteiro, e devolva o se dobro.
+Escreve um programa em python que solicite três números inteiros ao utilizador e imprima a soma dos mesmos.
 </li>
 
-<li>. Escreve um programa que calcule o volume de uma esfera. O valor do raio deverá ser introduzido pelo utilizador (deverá ser criado o ficheiro ex04.py). 
+<li> Escreve um programa que solicite duas notas ([nota1] e [nota2]) ao utilizador e
+apresente a média das mesmas da seguinte forma: 
 
-
-$V = \frac{4}{3} * \pi * R ^ 3 $
-</li>
-
-<li> Sejam a e b os catetos de um triângulo retângulo, faz um programa que devolva o valor da hipotenusa. (deverá ser criado o ficheiro ex05.py)
-
-$hipotenusa = \sqrt{ a^2 + b^2} $ 
+“A média das notas [nota1] e [nota2] é [média].”
 
 </li>
 
-<li> Faz um programa que receba três parâmetros inteiros (horas, minutos e segundos) e converta o resultado para segundos, devolvendo o output para o ecrã (deverá ser criado o ficheiro ex06.py).
+<li>  Num ficheiro diferente dos utilizados nas alíneas anteriores, escreve um programa que faça a conversão para kms, de um dado valor em metros.
+
 </li>
 
-<li> Faz um programa que receba a distância em km e a quantidade em litros de combustível consumido por um carro num percurso. Calcula o consumo km/l e escreve uma mensagem de acordo com o resultado obtido. (deverá ser criado o ficheiro ex07.py).
+<li> Escreve um programa que solicite a temperatura em Fahrenheit (F), ao utilizador, e a converta para grau Celsius (C), devolvendo o resultado da conversão.
+
+Use a fórmula: $ C = 5 * ((F - 32) / 9)$
 </li>
+
 
 </ol>
 <hr>
