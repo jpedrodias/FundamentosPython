@@ -9,7 +9,7 @@ num = int(num)
 
 # Process
 if num > 20:
-    result = num / 2
+    result = round(num / 2, 2)
     print(f"O resultado da divisão de {num} por 2 é {result}")
 else:
     print(f"O número {num} não é maior que 20.")
