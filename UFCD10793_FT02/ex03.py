@@ -1,4 +1,6 @@
 '''
+Exercício 3 - função sum (soma)
+
 Escreve um programa em python que solicite três números inteiros ao utilizador e imprima a soma dos mesmos.
 '''
 
