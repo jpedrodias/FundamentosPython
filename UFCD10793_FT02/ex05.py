@@ -1,4 +1,5 @@
 '''
+Exercício 4 - função len (versão mais completa)
 Escreve um programa que solicite a temperatura em Fahrenheit (F), ao utilizador, e a converta para grau Celsius (C), devolvendo o resultado da conversão.
 '''
 
