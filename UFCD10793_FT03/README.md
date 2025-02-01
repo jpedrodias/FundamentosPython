@@ -20,14 +20,36 @@
 </li>
 
 <li> 
-Escreve um programa que solicite um número inteiro ao utilizador e verifique se o mesmo é par ou ímpar. A mensagem no ecrã deverá ter o seguinte formato:<br>
+    Escreve um programa que solicite um número inteiro ao utilizador e verifique se o mesmo é par ou ímpar. A mensagem no ecrã deverá ter o seguinte formato:<br>
 "O número [número] é [par/ímpar]"
 </li>
 
 <li> 
+    Escreva um programa que verifique se um determinado número introduzido pelo utilizador é nulo, positivo ou negativo.
+</li>
 
+<li>
+    Escreva um programa que verifique se um determinado número introduzido pelo utilizador é nulo, positivo ou negativo.
+</li>
+
+<li>
+    Escreve um programa que receba três números reais e indique qual o maior dos três números.
+</li>
+
+<li>
+    Elabora um programa para verificar se um ano é bissexto ou não. A condição para ser um ano bissexto é: o ano deve ser divisível por 400; ou se for divisível por 4 e não for divisível por 100.
+</li>
+
+<li>
+Escreve um programa para classificar um triângulo de acordo com o comprimento dos seus lados. Considere as seguintes informações: 
+<ul>
+<li>Triângulo equilátero: todos os lados possuem o mesmo comprimento; </li>
+<li>Triângulo escaleno: todos os lados possuem comprimento diferente; </li>
+<li>Triângulo isósceles: caracterizado por ter dois lados com o mesmo comprimento. </li>
+</ul>
 
 </li>
+
 
 </ol>
 <hr>
