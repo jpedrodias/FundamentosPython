@@ -10,7 +10,6 @@ nota2 = int(nota2)
 
 notas = [nota1, nota2]
 
-
 #soma = num1 + num2 + num3
 soma = sum(notas)
 media = soma / len(notas)
