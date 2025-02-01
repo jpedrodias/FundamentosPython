@@ -9,8 +9,8 @@
 <li> Abre o Visual Studio Code, acede ao menu File (Ficheiro) e escolhe a opção que permite abrir uma pasta. Escolhe a pasta criada no ponto 1.
 </li>
 
-<li> Cria agora um novo ficheiro python (extensão .py) com o nome ex03.
-...
+<li> 
+    Escreve um programa que solicite um número inteiro ao utilizador e caso o mesmo seja maior que 20, devolva o resultado da sua divisão por 2. 
 </li>
 
 <li> 
