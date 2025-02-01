@@ -8,13 +8,10 @@ num1 = input('Insira um número real: ')
 num2 = input('Insira outro número real: ')
 
 # Converte os números para reais
-num1 = float(num1)
-num2 = float(num2)
+num1, num2 = float(num1), float(num2)
 
-# Process
-if num1 > num2:
-    print(f'O número {num1} é maior que o número {num2}.')
-elif num1 < num2:
-    print(f'O número {num2} é maior que o número {num1}.')
+if num1 == num2:
+    print(f'Os números são igual')
 else:
-    print(f'Os números {num1} e {num2} são iguais.')
+    maior = max(num1, num2)
+    print(f'O número {maior} é maior')
