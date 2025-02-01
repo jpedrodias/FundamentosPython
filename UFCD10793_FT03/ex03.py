@@ -6,11 +6,11 @@ Escreve um programa que solicite um número inteiro ao utilizador e verifique se
 
 
 # Input
-num = input("Insira um número inteiro: ")
+num = input('Insira um número inteiro: ')
 num = int(num)
 
 # Process
 if num % 2 == 0:
-    print(f"O número {num} é par.")
+    print(f'O número {num} é par.')
 else:
-    print(f"O número {num} é ímpar.")
+    print(f'O número {num} é ímpar.')
