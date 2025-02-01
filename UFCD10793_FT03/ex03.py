@@ -1,6 +1,6 @@
 '''
 Exercício 3 - Execussão condicional e operador módulo da divisão inteira
-Escreve um programa que solicite um número inteiro ao utilizador e verifique se o mesmo é par ou ímpar. A mensagem no ecrã deverá ter o seguinte formato; 
+Escreve um programa que solicite um número inteiro ao utilizador e verifique se o mesmo é par ou ímpar. A mensagem no ecrã deverá ter o seguinte formato:
 "O número [número] é [par/ímpar]"
 '''
 

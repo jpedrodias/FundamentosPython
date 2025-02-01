@@ -16,11 +16,12 @@
 </li>
 
 <li> 
-    
+    Implementa um programa que leia dois números e indique se estes são iguais ou diferentes.
 </li>
 
-<li>  
-
+<li> 
+Escreve um programa que solicite um número inteiro ao utilizador e verifique se o mesmo é par ou ímpar. A mensagem no ecrã deverá ter o seguinte formato:<br>
+"O número [número] é [par/ímpar]"
 </li>
 
 <li> 
