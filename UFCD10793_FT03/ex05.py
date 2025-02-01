@@ -1,6 +1,6 @@
 '''
 Exercício 5 - Execussão condicional e operadores de comparação de maior ou menor que
-Escreva um programa que verifique se um determinado número introduzido pelo utilizador é nulo, positivo ou negativo. 
+Escreva um programa que verifique se um determinado número introduzido pelo utilizador é nulo, positivo ou negativo.
 '''
 
 # Input
