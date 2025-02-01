@@ -1,8 +1,13 @@
 '''
-Num ficheiro diferente dos utilizados nas alíneas anteriores, escreve um programa que faça a conversão para kms, de um dado valor em metros.
+Escreve um programa que solicite a temperatura em Fahrenheit (F), ao utilizador, e a converta para grau Celsius (C), devolvendo o resultado da conversão.
 '''
 
-distancia_kms = input('Insere o valor em kms (em inteiro ou float): ')
-distancia_metros = float(distancia_kms) * 1000
+fahrenheit = input('Insere a temperatura em Fahrenheit: ')
 
-print(f'{distancia_kms} kms são {distancia_metros} metros')
+fahrenheit = float(fahrenheit)
+
+celsius = (fahrenheit - 32) * 5.0/9.0
+
+celsius = round(celsius, 2)
+
+print(f'A temperatura em graus Celsius é {celsius}')
