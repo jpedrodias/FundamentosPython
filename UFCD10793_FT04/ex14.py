@@ -1,0 +1,11 @@
+'''
+Exercício 14 - for loop
+Elabora um programa para soma todos os valores entre 10 e 100 (inclusive) e apresentar os valores
+no ecrã.
+'''
+
+# Input
+MIN = int(input('Valor mínimo? '))
+MAX = int(input('Valor máximo? '))
+for i in range(MIN, MAX+1):
+    print(i, end=' ')   
