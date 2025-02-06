@@ -1,6 +1,6 @@
 '''
 Exercício 8 - while loop - tabuada do 5
-Elabora um programa para escrever no ecrã os números de 1 a 100 e os respetivos quadrados
+Escreve um programa que coloque no ecrã a tabuada do número 5.
 '''
 
 #numero = int(input('Tabuada do número? '))
