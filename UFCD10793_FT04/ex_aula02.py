@@ -24,13 +24,15 @@ match operacao:
         resultado = numero * outro_numero
     case '/':
         operacao = 'divisão'
-        if outro_numero == 0:
-            resultado = 'impossível de cacular. Não é possível dividir por zero.'
-        else:
-            resultado = numero / outro_numero
+
+        match outro_numero:
+            case 0:
+                resultado = 'impossível de cacular. Não é possível dividir por zero.'
+            case _:
+                resultado = numero / outro_numero
+
     case _: 
         resultado = None
-
 if resultado is None:
     print(f'O resultado da {operacao} é {resultado}.')
 else:
