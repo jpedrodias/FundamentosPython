@@ -1,5 +1,5 @@
 '''
-Exercício 9 - while loop - tabuada
+Exercício 9 - while loop - tabuada de qualquer número
 Reescreve o programa anterior de forma a apresentar a tabuada de qualquer número introduzido pelo utilizador.
 '''
 
