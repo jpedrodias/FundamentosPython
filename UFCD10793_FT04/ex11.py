@@ -1,5 +1,5 @@
 '''
-Exercício 11 - while loop
+Exercício 11 - while loop - somatório e produtório
 Escreve um programa que calcule a soma e o produto dos N primeiros números naturais.
 '''
 
