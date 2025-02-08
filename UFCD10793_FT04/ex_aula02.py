@@ -25,6 +25,7 @@ match operacao:
     case '/':
         operacao = 'divisão'
 
+        # Nested case para verificar se o denominador é zero
         match outro_numero:
             case 0:
                 resultado = 'impossível de cacular. Não é possível dividir por zero.'
