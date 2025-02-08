@@ -3,7 +3,6 @@ Exercício 16 - try except
 Escreva um programa que peça ao utilizador números entre 0-10. Se o utilizador inserir um número fora desse intervalo o programa deverá finalizar com uma mensagem personalizada
 '''
 
-# Input
 numero = int(input('Insira um número entre 0-10: '))
 try:
     numero = int(numero)
