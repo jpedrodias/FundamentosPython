@@ -35,6 +35,7 @@ match opcao:
     case _:
         desconto = 0
 
-print(f'O desconto é {desconto * 100:.0f}%')
 preco_final = preco - preco * desconto
+
+print(f'O desconto é {desconto * 100:.0f}%')
 print(f'O preço final é {preco_final:.2f}')
