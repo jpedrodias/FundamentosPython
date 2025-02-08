@@ -4,7 +4,6 @@ Elabora um programa para soma todos os valores entre 10 e 100 (inclusive) e apre
 no ecrã.
 '''
 
-# Input
 MIN = 10
 MAX = 100
 soma = 0
