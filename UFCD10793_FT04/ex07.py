@@ -6,7 +6,6 @@ utilizando a fórmula da progressão aritmética, S = (1+N) * N/2, mas faz de co
 sabíamos a fórmula).
 '''
 
-# Input
 quantidade = int(input('Quantos números deseja calcular? '))
 soma = 0
 i = 0
