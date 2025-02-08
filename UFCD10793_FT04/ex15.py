@@ -1,5 +1,5 @@
 '''
-Exercício 15 - for loop
+Exercício 15 - for loop - múltiplos de 5
 Escreve um programa que mostre no ecrã os 20 primeiros múltiplos de 5.
 no ecrã.
 '''
