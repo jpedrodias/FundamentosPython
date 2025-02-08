@@ -4,13 +4,8 @@ Faz um programa que escreva o nome do mês que é introduzido, pelo utilizador, 
 '''
 
 # Input
-mes_int = 0
-while mes_int < 1 or mes_int > 12:
-    mes_input = input('Insira um número inteiro entre 1 e 12: ')
-    try:
-        mes_int = int(mes_input)
-    except ValueError:
-        mes = 0
+mes_input = input('Introduza o número do mês: ')
+mes_int = int(mes_input)
 
 match mes_int:
     case 1:
@@ -37,5 +32,7 @@ match mes_int:
         mes_str = 'Novembro'
     case 12:
         mes_str = 'Dezembro'
+    case _: # default
+        mes_str = 'Mês inválido'
 
 print(mes_str)
