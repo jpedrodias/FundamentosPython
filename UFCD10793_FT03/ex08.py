@@ -10,9 +10,9 @@ seus lados. Considere as seguintes informações:
 
 
 # Input
-lado_a = input("Insira o comprimento do lado 1: ")
-lado_b = input("Insira o comprimento do lado 2: ")
-lado_c = input("Insira o comprimento do lado 3: ")
+lado_a = input("Insira o comprimento do lado a: ")
+lado_b = input("Insira o comprimento do lado b: ")
+lado_c = input("Insira o comprimento do lado c: ")
 
 # Converte os números para reais
 lado_a = float(lado_a)
