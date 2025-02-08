@@ -5,33 +5,33 @@ Caso, o utilizador escolha divisão e insira como valor do denominar 0 mostra um
 '''
 
 operacao = input('Insira a operação desejada (+, -, *, /): ')
-num1 = input('Insira um número: ')
-num2 = input('Insira outro número: ')
+numero = input('Insira um número: ')
+outro_numero = input('Insira outro número: ')
 
 # Converte as string para números para reais
-num1 = float(num1)
-num2 = float(num2)
+numero = float(numero)
+outro_numero = float(outro_numero)
 
 match operacao:
     case '+':
         operacao = 'adição'
-        resultado = num1 + num2
+        resultado = numero + outro_numero
     case '-':
         operacao = 'subtração'
-        resultado = num1 - num2
+        resultado = numero - outro_numero
     case '*':
-        resultado = num1 * num2
         operacao = 'multiplicação'
+        resultado = numero * outro_numero
     case '/':
         operacao = 'divisão'
-        if num2 == 0:
+        if outro_numero == 0:
             resultado = 'impossível de cacular. Não é possível dividir por zero.'
         else:
-            resultado = num1 / num2
+            resultado = numero / outro_numero
     case _: 
         resultado = None
 
-if resultado:
+if resultado is None:
     print(f'O resultado da {operacao} é {resultado}.')
 else:
     print('Operação inválida. Insira uma operação válida (+, -, *, /).')
