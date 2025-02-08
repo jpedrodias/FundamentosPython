@@ -3,7 +3,6 @@ Exercício 3 - while loop - somas e médias
 Fazer um programa para ler quatro números inteiros e positivos, calcular e devolver a sua média.
 '''
 
-# Input
 quantidade = 4
 soma = 0
 i = 0
