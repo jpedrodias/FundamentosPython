@@ -4,7 +4,6 @@ Elabora um programa para soma todos os valores entre 10 e 100 (inclusive) e apre
 no ecrã.
 '''
 
-# Input
 MIN = int(input('Valor mínimo? '))
 MAX = int(input('Valor máximo? '))
 for i in range(MIN, MAX+1):
