@@ -28,7 +28,8 @@ match operacao:
             resultado = 'impossível de cacular. Não é possível dividir por zero.'
         else:
             resultado = num1 / num2
-
+    case _: 
+        resultado = None
 
 if resultado:
     print(f'O resultado da {operacao} é {resultado}.')
