@@ -16,4 +16,3 @@ if numero is not None:
         print('Número inserido:', numero)
     else:
         print('O número inserido não está entre 0-10.')
-
