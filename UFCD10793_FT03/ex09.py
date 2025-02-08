@@ -30,16 +30,18 @@ imc = peso/(altura*altura)
 img = round(imc, 2)
 
 if img < 17:
-    print(f"O IMC de {nome} é {img} e está muito abaixo do peso ideal.")
+    resultado = f"O IMC de {nome} é {img} e está muito abaixo do peso ideal."
 elif 17 <= img < 18.5:
-    print(f"O IMC de {nome} é {img} e está abaixo do peso.")
+    resultado = f"O IMC de {nome} é {img} e está abaixo do peso."
 elif 18.5 <= img < 25:
-    print(f"O IMC de {nome} é {img} e está com o peso normal.")
+    resultado = f"O IMC de {nome} é {img} e está com o peso normal."
 elif 25 <= img < 30:
-    print(f"O IMC de {nome} é {img} e está acima do peso.")
+    resultado = f"O IMC de {nome} é {img} e está acima do peso."
 elif 30 <= img < 35:
-    print(f"O IMC de {nome} é {img} e está com obesidade I.")
+    resultado = f"O IMC de {nome} é {img} e está com obesidade I."
 elif 35 <= img < 40:
-    print(f"O IMC de {nome} é {img} e está com obesidade II (severa).")
+    resultado = f"O IMC de {nome} é {img} e está com obesidade II (severa)."
 else:
-    print(f"O IMC de {nome} é {img} e está com obesidade III (mórbida).")
+    resultado = f"O IMC de {nome} é {img} e está com obesidade III (mórbida)."
+
+print(resultado)
