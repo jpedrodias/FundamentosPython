@@ -1,5 +1,5 @@
 '''
-Exercício 17 - loops
+Exercício 17 - loops - lazy mode
 Escreva um programa que peça ao utilizador 20 números reais e no final mostre a soma e a média dos números introduzidos.
 '''
 LAZYMODE = True
@@ -7,7 +7,6 @@ LAZYMODE = True
 if LAZYMODE:
     from random import random
 
-# Input
 quantidade = 20
 soma = 0
 for i in range(quantidade):
