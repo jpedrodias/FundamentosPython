@@ -1,5 +1,5 @@
 '''
-Exercício 2 - match
+Exercício 2 - match - estado civil
 Implemente um programa que, dada uma letra (S, C ou V), indique o estado civil de uma pessoa.
 '''
 
