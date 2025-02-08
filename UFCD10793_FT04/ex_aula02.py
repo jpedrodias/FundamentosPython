@@ -24,7 +24,6 @@ match operacao:
         resultado = numero * outro_numero
     case '/':
         operacao = 'divisão'
-
         # Nested case para verificar se o denominador é zero
         match outro_numero:
             case 0:
