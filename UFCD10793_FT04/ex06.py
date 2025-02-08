@@ -3,7 +3,6 @@ Exercício 6 - while loop - números e quadrados
 Elabora um programa para escrever no ecrã os números de 1 a 100 e os respetivos quadrados
 '''
 
-# Input
 quantidade = 100
 i = 0
 while i < quantidade:
