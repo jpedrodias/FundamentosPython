@@ -3,7 +3,6 @@ Exercício 12 - while loop - fatorial
 Escreve um programa que calcule a soma e o produto dos N primeiros números naturais.
 '''
 
-# Input
 numero = int(input('Calculo do fatorial. Qual o o número (positivo)? '))
 
 fatorial = 1
