@@ -1,6 +1,6 @@
 '''
-Exercício 5 - while loop
-Escreve um programa para escrever no ecrã a palavra olá 100 vezes.
+Exercício 5 - while loop - números de 1 a 100
+Elabora um programa para escrever no ecrã os números de 1 a 100.
 '''
 
 # Input
