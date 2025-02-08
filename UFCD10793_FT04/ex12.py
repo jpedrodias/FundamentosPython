@@ -4,7 +4,7 @@ Escreve um programa que calcule a soma e o produto dos N primeiros números natu
 '''
 
 # Input
-numero = int(input('Calculo do fatorial. Qual o o número? '))
+numero = int(input('Calculo do fatorial. Qual o o número (positivo)? '))
 
 fatorial = 1
 i = 1
