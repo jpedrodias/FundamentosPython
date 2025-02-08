@@ -3,7 +3,6 @@ Exercício 1 - match - mês
 Faz um programa que escreva o nome do mês que é introduzido, pelo utilizador, na forma numérica.
 '''
 
-# Input
 mes_input = input('Introduza o número do mês: ')
 mes_int = int(mes_input)
 
