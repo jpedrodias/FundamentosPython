@@ -1,5 +1,5 @@
 '''
-Exercício 3 - while loop
+Exercício 3 - while loop - somas e médias
 Fazer um programa para ler quatro números inteiros e positivos, calcular e devolver a sua média.
 '''
 
