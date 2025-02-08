@@ -1,5 +1,5 @@
 '''
-Exercício 4 - while loop
+Exercício 4 - while loop - 100 vezes
 Escreve um programa para escrever no ecrã a palavra olá 100 vezes.
 '''
 
