@@ -1,5 +1,5 @@
 '''
-Exercício 10 - while loop - decrescente
+Exercício 10 - while loop - ordem decrescente
 Escreve um programa que coloque no ecrã os 10 primeiros números de forma decrescente.
 '''
 
