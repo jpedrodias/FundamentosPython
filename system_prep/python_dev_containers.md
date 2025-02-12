@@ -7,8 +7,6 @@
 - Show all Templates
 - Python 3
 - Python 3.12-bookworm
-- postgresql
-- postgresql-client
 - Editar ficheiro .\devcontainer\devcontainer.json
 - alterar `name` para "Fundamentos de Python"
 
