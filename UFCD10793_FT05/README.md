@@ -11,12 +11,7 @@
 
 <ol>
 <li> 
-    Reproduza o seguinte Código:
-    <ul>
-        <li>Escreva um programa que imprima os números de 1 até 50.</li>
-        <li>Utilizando estruturas de repetição escreva um programa que mostre os
-resultados da tabuada de multiplicação dos números entre 1 e 10, como segue</li>
-    </ul>
+    ...
 </li>
 
 <li> 
