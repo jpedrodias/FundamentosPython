@@ -62,20 +62,3 @@ print('Cores:', cores)
 
 # k. Faz o print do tamanho da lista (len)
 print('Tamanho da lista:', len(cores))
-
-# l. Faz o print do índice da cor 'branco'
-print('Índice da cor branco:', cores.index('branco'))
-
-# m. Faz o print do número de vezes que a cor 'amarelo' aparece na lista
-print('Número de vezes que a cor amarelo aparece:', cores.count('amarelo'))
-
-# n. Faz o print da lista invertida
-print('Lista invertida:', cores[::-1])
-
-# o. Faz o print da lista ordenada
-cores.sort()
-print('Lista ordenada:', cores)
-
-# p. Faz o print da lista ordenada inversa
-cores.sort(reverse=True)
-print('Lista ordenada inversa:', cores)
