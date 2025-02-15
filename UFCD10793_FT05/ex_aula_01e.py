@@ -20,3 +20,18 @@ print(lista1)
 lista1.sort(reverse=True)
 
 print(lista1)
+
+
+lista2=[
+    'a','a','z','f',
+    'h','i','m', 'u',
+    'q','r','b','d',
+]
+
+lista2.sort()
+
+print(lista2)
+
+lista2.sort(reverse=True)
+
+print(lista2)
