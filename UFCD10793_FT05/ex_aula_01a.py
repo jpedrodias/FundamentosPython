@@ -1,5 +1,5 @@
 '''
-Exercício 1 - ciclo for e while
+Exercício 1a - ciclo for e while
 Escreva um programa que imprima os números de 1 até 50.
 '''
 
