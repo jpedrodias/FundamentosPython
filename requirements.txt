@@ -1,6 +1,6 @@
 ipython
-jupyter
-jupyterlab
-numpy
-pandas
-seaborn
+#jupyter
+#jupyterlab
+#numpy
+#pandas
+#seaborn
