@@ -1,5 +1,5 @@
 '''
-Avaliação Intermédia 1 - Exercício 1 (b)
+Avaliação Intermédia 1 - Parte 1 - Exercício 1 (b)
 
 Escreva um programa que pede ao utilizador um número inteiro e trata erros de entrada.
 '''
