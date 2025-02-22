@@ -6,6 +6,6 @@ Criar um programa que leia um ficheiro de texto e exibir o seu conteúdo.
 
 print(__doc__, )
 
-with open("exemplo.txt", "r") as ficheiro:
+with open("z_exemplo.txt", "r") as ficheiro:
     conteudo = ficheiro.read()
     print(conteudo)
