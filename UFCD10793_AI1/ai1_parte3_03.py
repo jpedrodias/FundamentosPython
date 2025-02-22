@@ -1,5 +1,5 @@
 '''
-Avaliação Intermédia 1 - Parte 3 - Exercício 3 - consultar dadis
+Avaliação Intermédia 1 - Parte 3 - Exercício 3 - consultar dados
 
 Depois de iniciada a conexão à base de dados, é executada a instrução SQL para consultar todos os funcionários da tabela `funcionarios`.
 
