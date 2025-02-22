@@ -1,4 +1,11 @@
+'''
+Avaliação Intermédia 1 - my tools set
 
+* better_input(prompt, error_message="Erro! Introduza um número inteiro superior a zero.", data_type=int, not_allowed={})
+    Recebe um prompt, uma mensagem de erro, um tipo de dados, e uma lista de valores não permitidos. 
+    Devolve um valor introduzido pelo utilizador que corresponda ao tipo de dados e não esteja na lista de valores não permitidos.
+
+'''
 
 def better_input(prompt, error_message="Erro! Introduza um número inteiro superior a zero.", data_type=int, not_allowed={}):
     done = False

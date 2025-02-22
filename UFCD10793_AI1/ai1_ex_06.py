@@ -5,3 +5,5 @@ Elabora uma script em python que peça ao utilizador dois números e devolva a d
 Trate erros como divisão por zero e valores inválidos
 '''
 
+from ai1_mytools import better_input
+
