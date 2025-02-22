@@ -22,6 +22,7 @@ except Exception as e:
 
 # Exemplo 2 - using try only here is needed
 import os
+
 caminho = input("Introduza o caminho do ficheiro: ")
 if os.path.exists(caminho):
     try:
