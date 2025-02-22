@@ -6,6 +6,6 @@ Modificar o programa anterior para acrescentar mais uma linha ao ficheiro.
 
 NEW_LINE = "\n"
 
-filename = "z_novo_ficheiro.txt"
+filename = "data/novo_ficheiro.txt"
 with open(filename, "a") as ficheiro:
     ficheiro.write("Linha adicional" + NEW_LINE)
