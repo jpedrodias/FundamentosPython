@@ -13,6 +13,7 @@ operações matemáticas como união, interseção, diferença e diferença sim�
 
 '''
 
+print(__doc__)
 
 xs = {1, 2, 3}
 aux = 1 in xs # True, implementação mais eficiente
