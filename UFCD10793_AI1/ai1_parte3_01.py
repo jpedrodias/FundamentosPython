@@ -13,5 +13,10 @@ Aplicações para consultar ficheiro .sqlite
 '''
 
 # 
-from banco_dados import _
+import os
+import banco_dados # as instruções de banco_dados.py são executadas
 
+if os.path.exists('data/empresa.sqlite'):
+    print('Ficheiro empresa.sqlite existe.')
+else:
+    print('Ficheiro empresa.sqlite não existe.')

@@ -16,8 +16,8 @@ CREATE TABLE IF NOT EXISTS funcionarios (
     salario REAL NOT NULL
 );
 '''
-cursor.execute(SQL_CREATE_FUNCIONARIOS)
 
+cursor.execute(SQL_CREATE_FUNCIONARIOS)
 
 # Guardar as mudanças e fechar a conexão
 conn.commit()
