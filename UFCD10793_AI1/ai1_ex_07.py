@@ -12,3 +12,5 @@ Avaliação Intermédia 1 - Exercício 7
 
 
 '''
+
+print(__doc__)
