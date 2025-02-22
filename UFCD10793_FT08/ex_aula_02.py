@@ -2,6 +2,8 @@
 Exercício Exemplo 2 - Criação e operações com Conjuntos
 '''
 
+print(__doc__)
+
 # Criar um conjunto (set)
 this_set = {"apple", "banana", "cherry"}
 print('this_set=', this_set)
