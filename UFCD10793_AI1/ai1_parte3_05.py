@@ -1,5 +1,5 @@
 '''
-Avaliação Intermédia 1 - Parte 3 - Exercício 3 - Eliminar dados
+Avaliação Intermédia 1 - Parte 3 - Exercício 6 - Eliminar dados
 '''
 
 print(__doc__)
