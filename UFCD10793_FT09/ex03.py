@@ -72,7 +72,7 @@ for computador in computadores:
     if "RAM" in computador and 8 in computador["RAM"] and 12 in computador["RAM"]:
         print('Marca com 8 e 12 de RAM:', computador["Marca"])
 
-# k. Imprima os dicionários
+# k. Imprima todos dicionários que se chamem computadores
 for name, objeto in locals().copy().items():
     if isinstance(objeto, dict) and name.startswith('computadores'):
         print(name, objeto)
