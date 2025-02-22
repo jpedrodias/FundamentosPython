@@ -7,6 +7,8 @@ Trate erros como divisão por zero e valores inválidos
 
 from ai1_mytools import better_input
 
+print(__doc__)
+
 number_a = better_input("Digite o primeiro número inteiro: ", 'Erro: Apenas números inteiros são permitidos.')
 number_b = better_input("Digite o segundo número inteiro: ", 'Erro: Apenas números inteiros são permitidos.', not_allowed={}) # permite a inserção de zero para testar a divisão por zero
 
