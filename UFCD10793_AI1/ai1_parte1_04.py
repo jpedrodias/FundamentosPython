@@ -1,5 +1,5 @@
 '''
-Avaliação Intermédia 1 - Exercício 4
+Avaliação Intermédia 1 - Parte 1 - Exercício 4
 
 Crie um programa que captura qualquer erro e exibe uma mensagem apropriada.
 '''

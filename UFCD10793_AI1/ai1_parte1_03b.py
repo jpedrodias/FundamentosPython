@@ -1,5 +1,5 @@
 '''
-Avaliação Intermédia 1 - Exercício 3 (b)
+Avaliação Intermédia 1 - Parte 1 - Exercício 3 (b)
 
 Verifique se um ficheiro existe antes de o abrir.
 '''

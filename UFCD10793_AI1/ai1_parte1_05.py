@@ -1,5 +1,5 @@
 '''
-Avaliação Intermédia 1 - Exercício 5
+Avaliação Intermédia 1 - Parte 1 - Exercício 5
 
 Elabora uma script em python que peça ao utilizador um número e some todos os números de 1 até esse mesmo número. Deves utilizar o tratamento de erros.
 '''

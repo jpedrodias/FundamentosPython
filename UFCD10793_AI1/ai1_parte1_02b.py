@@ -1,5 +1,5 @@
 '''
-Avaliação Intermédia 1 - Exercício 2 (b)
+Avaliação Intermédia 1 - Parte 1 - Exercício 2 (b)
 
 Peça dois números ao utilizador e trate a divisão por zero.
 '''
