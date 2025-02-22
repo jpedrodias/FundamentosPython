@@ -1,5 +1,5 @@
 '''
-Exercício Exemplo 5 - interseção de conjuntos
+Exercício Exemplo 6 - interseção de conjuntos
 '''
 
 # first set
