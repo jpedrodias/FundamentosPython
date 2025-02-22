@@ -4,23 +4,7 @@ Avaliação Intermédia 1 - Exercício 5
 Elabora uma script em python que peça ao utilizador um número e some todos os números de 1 até esse mesmo número. Deves utilizar o tratamento de erros.
 '''
 
-def better_input(prompt, error_message="Erro! Introduza um número inteiro superior a zero.", data_type=int, not_allowed={}):
-    done = False
-    while not done:
-        user_input = input(prompt)
-        data = None
-        try:
-            data = data_type(user_input)
-            done = True
-        except ValueError:
-            print(error_message)
-        
-        if data in not_allowed:
-            print(error_message)
-            done = False
-    
-    return data
-
+from ai1_mytools import better_input
 
 print(__doc__)
 
