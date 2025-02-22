@@ -1,5 +1,12 @@
 '''
 Avaliação Intermédia 1 - Parte 3 - Exercício 6 - CRUD System com SQLite
+
+Cria um menu interativo para gerir a base de dados, onde o utilizafor pode escolher entre:
+1️⃣ Adicionar um novo funcionário
+2️⃣ Listar todos os funcionários
+3️⃣ Atualizar o salário de um funcionário
+4️⃣ Eliminar um funcionário
+5️⃣ Sair
 '''
 
 import sqlite3, os
