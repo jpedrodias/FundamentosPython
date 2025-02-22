@@ -38,3 +38,17 @@ print('Set:',even_numbers)
 
 # find number of elements
 print('Total Elements:', len(even_numbers))
+
+#uniao de conjuntos
+
+# first set
+A = {1, 3, 5}
+
+# second set
+B = {0, 2, 4}
+
+# perform union operation using |
+print('Union using |:', A | B)
+
+# perform union operation using union()
+print('Union using union():', A.union(B))
