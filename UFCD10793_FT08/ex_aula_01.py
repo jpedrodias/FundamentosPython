@@ -1,6 +1,5 @@
 '''
-Exercício Exemplo 1 - Criação e operações com Conjuntos
-Criação e Manipulação de Conjuntos
+Exercício Exemplo 1 - Criação e Manipulação de Conjuntos
 
 Operações de conjuntos em Python. Conjuntos são coleções não ordenadas de elementos únicos. Podemos criar conjuntos usando {} ou o construtor set(). 
 Conjuntos não suportam indexação, slicing ou qualquer operação que dependa da ordem dos elementos. Conjuntos são úteis para remover duplicatas de uma lista e realizar 
