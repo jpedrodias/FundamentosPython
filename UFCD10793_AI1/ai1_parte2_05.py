@@ -48,7 +48,7 @@ def copiar_ficheiro_binario(origem, destino):
 
 # Solicitar entrada do utilizador
 #ficheiro_origem = input("Digite o nome do ficheiro binário a copiar: ")
-ficheiro_origem = "z_exemplo.txt"
+ficheiro_origem = "data/exemplo.txt"
 ficheiro_destino = ficheiro_origem.replace('.txt', '_copia.txt')
 
 # Executar a cópia e validação
