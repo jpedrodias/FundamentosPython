@@ -1,6 +1,9 @@
 ipython
 #jupyter
 #jupyterlab
-#numpy
-#pandas
-#seaborn
+numpy
+pandas
+openpyxl
+matplotlib
+seaborn
+flask
