@@ -1,7 +1,13 @@
+'''
+Avaliação Intermédia 1 - Parte 3 - Exercício 6 - CRUD System com SQLite & Flask
+'''
+
 from flask import Flask, render_template, request, redirect, url_for, flash
 
 import sqlite3
-import os
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
 
 DATABASE = '../data/empresa.sqlite'
 
