@@ -1,6 +1,6 @@
 '''
 Exercício 2 - listas
-Considera a lista: notas=[11.2, 15, 8.7, 17.2, 7.9 ]
+Considera a lista: notas = [11.2, 15, 8.7, 17.2, 7.9 ]
 
 Cria um programa, em python, que:
     a. Acrescenta o valor 10.9 no final da lista e faz o print de toda a lista
