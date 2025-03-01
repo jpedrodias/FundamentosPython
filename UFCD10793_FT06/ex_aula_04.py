@@ -42,7 +42,6 @@ print(f'Quantidade de boleanos: {boleanos}')
 
 
 # b. Efetua a média de todos os valores inteiros na lista.
-
 soma = 0
 contador = 0
 for num in nums:
