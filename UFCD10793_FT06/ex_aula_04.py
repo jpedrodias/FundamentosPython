@@ -17,6 +17,7 @@ floats = 0
 strings = 0
 boleanos = 0
 
+# Usando for loop & type
 for num in nums:
     if type(num) == int:
         inteiros += 1
@@ -27,14 +28,18 @@ for num in nums:
     elif type(num) == bool:
         boleanos += 1
 
+# (EXTRA) Usando list comprehension
+inteiros = len([ num for num in nums if type(num) == int   ])
+floats   = len([ num for num in nums if type(num) == float ])
+strings  = len([ num for num in nums if type(num) == str   ])
+boleanos = len([ num for num in nums if type(num) == bool  ])
+
 
 print(f'Quantidade de inteiros: {inteiros}')
-
 print(f'Quantidade de floats: {floats}')
-
 print(f'Quantidade de strings: {strings}')
-
 print(f'Quantidade de boleanos: {boleanos}')
+
 
 # b. Efetua a média de todos os valores inteiros na lista.
 
