@@ -3,6 +3,12 @@ Avaliação Intermédia 1 - Parte 3 - Exercício 2
 
 
 '''
+
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
+
+
 import sqlite3
 
 conn = sqlite3.connect('data/empresa.sqlite')

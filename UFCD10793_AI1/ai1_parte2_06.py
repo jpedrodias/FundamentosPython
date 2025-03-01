@@ -9,6 +9,11 @@ Instalada Extensão vscode: Rainbow CSV
 
 import csv
 
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
+
+
 filename = 'data/kaggle_datasets_ucim_iris.csv'
 with open(filename, 'r') as f:
     reader = csv.reader(f)

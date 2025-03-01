@@ -12,6 +12,11 @@ Aplicações para consultar ficheiro .sqlite
 (4) Só online: https://sqliteviewer.app/
 '''
 
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
+
+
 # 
 import os
 import banco_dados # as instruções de banco_dados.py são executadas

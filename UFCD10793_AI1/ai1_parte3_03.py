@@ -9,9 +9,15 @@ Por fim, é feito um loop para exibir os resultados.
 
 '''
 
-print(__doc__)
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
 
 import sqlite3
+
+print(__doc__)
+
+
 
 conn = sqlite3.connect('data/empresa.sqlite')
 cursor = conn.cursor()

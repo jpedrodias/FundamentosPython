@@ -2,9 +2,15 @@
 Avaliação Intermédia 1 - Parte 3 - Exercício 4 - atualizar dados
 '''
 
+import sqlite3, time
+
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
+
 print(__doc__)
 
-import sqlite3, time
+
 
 conn = sqlite3.connect('data/empresa.sqlite')
 cursor = conn.cursor()

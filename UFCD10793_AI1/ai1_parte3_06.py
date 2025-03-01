@@ -11,6 +11,10 @@ Cria um menu interativo para gerir a base de dados, onde o utilizafor pode escol
 
 import sqlite3, os
 
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
+
 print(__doc__)
 
 DATABASE = 'data/empresa.sqlite'

@@ -3,6 +3,11 @@ Avaliação Intermédia 1 - Parte 2 - Exercício 3
 
 Criar um programa que escreva três linhas num ficheiro novo.
 '''
+
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
+
 NEW_LINE = "\n"
 
 filename = "data/novo_ficheiro.txt"

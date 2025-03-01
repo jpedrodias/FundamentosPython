@@ -7,6 +7,10 @@ Igual ao 2.6 mas com .sqlite em vez de csv
 
 import sqlite3, os
 
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
+
 print(__doc__)
 
 DATABASE = 'data/kaggle_datasets_ucim_iris.sqlite'

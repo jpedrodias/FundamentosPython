@@ -12,6 +12,11 @@ d) Exibir uma mensagem de sucesso ou erro informando se os ficheiros são idênt
 import hashlib
 import os
 
+from os import chdir, getcwd, path
+workdir = path.dirname(path.abspath(__file__))
+chdir(workdir)
+
+
 def calcular_hash(ficheiro):
     """Calcula o hash MD5 de um ficheiro binário para verificar integridade."""
     hash_md5 = hashlib.md5()
