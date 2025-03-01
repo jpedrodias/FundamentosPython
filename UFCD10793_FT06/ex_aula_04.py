@@ -34,6 +34,12 @@ floats   = len([ num for num in nums if type(num) == float ])
 strings  = len([ num for num in nums if type(num) == str   ])
 boleanos = len([ num for num in nums if type(num) == bool  ])
 
+# (EXTRA) Usando list comprehension e sum
+inteiros = sum( 1 for num in nums if type(num) == int   )
+floats   = sum( 1 for num in nums if type(num) == float )
+strings  = sum( 1 for num in nums if type(num) == str   )
+boleanos = sum( 1 for num in nums if type(num) == bool  )
+
 
 print(f'Quantidade de inteiros: {inteiros}')
 print(f'Quantidade de floats: {floats}')
