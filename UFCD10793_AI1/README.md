@@ -1,4 +1,6 @@
 # Avaliação Intermédia 1 - Pedro Dias
+Abriu: sábado, 22 de fevereiro de 2025 às 13:00
+Data limite: domingo, 9 de março de 2025 às 23:59
 
 
 ## Lista de ficheiros
