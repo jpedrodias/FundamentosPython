@@ -1,19 +1,19 @@
 '''
-Exercício 5 - Bloco try/exception TypeError
-Escreva um programa Python que solicita ao utilizador dois números e gera uma exceção
-TypeError se as entradas não forem numéricas.
+Exercício 6 - Bloco try/exception PermissionError
+Escreva um programa Python que abra um ficheiro e manipule uma exceção
+PermissionError se houver um problema de permissão.
 '''
 
-def get_numeric_input(prompt):
-    while True:
-        try:
-            value = float(input(prompt))
-            return value
-        except ValueError:
-            print("Error: Invalid input. Please Input a valid number.")
+def open_file(filename):
+    try:
+
+        with open(filename, 'w') as file:
+            contents = file.read()
+            print("File contents:")
+            print(contents)
+    except PermissionError:
+        print("Error: Permission denied to open the file.")
 
 # Usage
-n1 = get_numeric_input("Input the first number: ")
-n2 = get_numeric_input("Input the second number: ")
-result = n1 * n2
-print("Product of the said two numbers:", result)
+file_name = input("Input a file name: ")
+open_file(file_name)
