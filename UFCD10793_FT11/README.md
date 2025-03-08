@@ -11,13 +11,31 @@
 
 <ol>
 <li> 
-    ...
+    Exercício 1 - funções
 </li>
 
 <li> 
-    ...
+    Exercício 2 - funções
 </li>
 
+<li> 
+    Exercício 3 - funções
+</li>
+
+
+<li> 
+    Exercício 4 - funções
+</li>
+
+
+<li> 
+    Exercício 5 - funções
+</li>
+
+
+<li> 
+    Exercício 6 - funções e dicionários
+</li>
 </ol>
 
 <hr>
