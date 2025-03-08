@@ -1,3 +1,5 @@
+# Preparação do sistema para usar venv ou docker
+
 # Windows: 
 
 ## Configuração inicial do Ambiente Virtual 

@@ -1,4 +1,5 @@
-# Correr Python dentro do Docker:
+# Preparação do sistema para usar venv ou docker
+## Correr Python dentro do Docker
 
 
 **Vantagens:**
