@@ -100,8 +100,6 @@ sabíamos a fórmula).
 <li>
 </li>
 
-
-
 </ol>
 
 <hr>
