@@ -1,12 +1,11 @@
 '''
-Exercício 2 - Strings
+Exercício 2 - Strings capitalize, split, count e replace
 '''
 
 prov = '''o pior cego é aquela
 que não quer ver.'''
 
 # Primeira letra da frase em maiúsculas
-
 prov = prov.capitalize()
 print(prov)
 

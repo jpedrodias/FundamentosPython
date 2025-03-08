@@ -13,12 +13,14 @@ datas = '12ago2021,02set2020,20jan2022,11out2019,09mar2020,10dez2022'
 datas_separadas = datas.split(',')
 print('a)', datas_separadas)
 
+
 # b. Imprima as datas correspondentes ao ano de 2022;
 datas_2022 = []
 for data in datas_separadas:
     if data.endswith('2022'):
         datas_2022.append(data)
 print('b)', datas_2022)
+
 
 # c. Crie uma nova lista (dias) e na mesma armazena o dia de cada uma das datas. Ordene a lista de forma crescente e imprima a mesma.
 dias = []
@@ -27,6 +29,7 @@ for data in datas_separadas:
     dias.append(dia)
 dias.sort()
 print('c)', dias)
+
 
 # d. (EXTRA) Crie uma nova lista (meses) e na mesma armazena o mês de cada uma das datas. Ordene a lista de forma crescente e imprima a mesma.
 meses = []
@@ -41,6 +44,7 @@ print('d)', meses)
 import locale
 from datetime import datetime
 
+
 # Definir o idioma como português (importante porque os textos estão em português)
 locale.setlocale(locale.LC_TIME, 'pt_PT.UTF-8')
 
@@ -51,12 +55,14 @@ for index, data_string in enumerate(datas_separadas):
     datas_separadas[index] = data
 print('a)', datas_separadas)
 
+
 # b. Imprima as datas correspondentes ao ano de 2022;
 datas_2022 = []
 for data in datas_separadas:
     if data.year == 2022:
         datas_2022.append(data)
 print('b)', datas_2022)
+
 
 # c. Crie uma nova lista (dias) e na mesma armazena o dia de cada uma das datas. Ordene a lista de forma crescente e imprima a mesma.
 dias = []
@@ -65,10 +71,10 @@ for data in datas_separadas:
 dias.sort()
 print('c)', dias)
 
+
 # d. (EXTRA) Crie uma nova lista (meses) e na mesma armazena o mês de cada uma das datas. Ordene a lista de forma crescente e imprima a mesma.
 meses = []
 for data in datas_separadas:
     meses.append(data.month)
 meses.sort()
 print('d', meses)
-

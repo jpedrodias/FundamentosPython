@@ -12,11 +12,19 @@
 
 <ol>
 <li> 
-    ...
+    Exercício 1 - Strings strip, slice e upper
 </li>
 
 <li> 
-    ...
+    Exercício 2 - Strings capitalize, split, count e replace
+</li>
+
+<li> 
+    Exercício 3 - Strings, split e datetime
+</li>
+
+<li> 
+    Exercício 4 - Strings - Manipulação de texto
 </li>
 
 </ol>
