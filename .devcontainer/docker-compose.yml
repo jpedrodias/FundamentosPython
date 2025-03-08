@@ -1,0 +1,13 @@
+services:
+  python:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: /bin/bash -c "pip install -r requirements.txt && python -m unittest discover -s tests -v"
+    volumes:
+      - ..:/workspace
+    #environment:
+    #  - PYTHONPATH=/workspace
+    #working_dir: /workspace
+    #depends_on:
+    #  - db

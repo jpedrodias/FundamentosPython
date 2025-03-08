@@ -3,8 +3,17 @@
 {
 	"name": "Fundamentos de Python",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	// "image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
-	"build": { "dockerfile": "Dockerfile" },
+	
+	// USANDO UMA IMAGEM DEFAULT
+	"image": "mcr.microsoft.com/devcontainers/python:1-3.12-bookworm",
+	
+	// CRIANDO A PRÓPRIA IMAGEM
+	// "build": { "dockerfile": "Dockerfile" },
+
+	// CRIANDO o PRÒPRIO CONTAINER
+	// "dockerComposeFile": "docker-compose.yml",
+	// "workspaceFolder": "/workspace/",
+
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
