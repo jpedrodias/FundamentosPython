@@ -27,4 +27,3 @@ new_list = remove_repetidos_por_index(lista)
     
 print(lista)
 print(new_list)
-

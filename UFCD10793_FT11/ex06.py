@@ -21,4 +21,3 @@ meses = {
 mes = int(input('Introduza o número do mês: '))
 mes_extenso = meses.get(mes, 'Mês inválido')
 print(mes_extenso)
-

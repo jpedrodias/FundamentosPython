@@ -43,4 +43,3 @@ print('Chaves e Valores do dicionário:')
 for chave, valor in menu.items():
     print(f' * {chave} - {valor:.2f}€')
 print()
-

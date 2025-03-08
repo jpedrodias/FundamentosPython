@@ -2,7 +2,6 @@
 Exercício 4 - Strings
 
 Escreve um programa em Python que
-Escreve um programa em Python que
 a. Imprima o texto anterior todo em maiúsculas;
 b. Peça uma palavra ao utilizador e verifique se a mesma está ou não no
 texto, devolvendo o resultado ao utilizador.
