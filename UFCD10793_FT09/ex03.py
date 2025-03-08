@@ -49,15 +49,13 @@ if 16 not in computadores_1["RAM"]:
 computadores_2 = computadores_1.copy()
 
 # f. Na lista nova modifique a marca para “Lenovo” e os valores da RAM para [4,8]. Imprima a nova lista
-computadores_2["Marca"] = "Lenovo"
-computadores_2["RAM"] = [4, 8]
+computadores_2.update({"Marca": "Lenovo", "RAM": [4, 8]})
 print('Computadores 2:', computadores_2)
 
 
 # g. Crie uma nova lista com deep copy e modifique a marca para “HP” e Disco para [“256G”]- Imprima a respetiva lista
 computadores_3 = computadores_1.copy()
-computadores_3["Marca"] = "HP"
-computadores_3["Disco"] = ["256G"]
+computadores_3.update({"Marca": "HP", "Disco": ["256G"]})
 print('Computadores 3:', computadores_3)
 
 # h. Cria uma lista cujos elementos são os três dicionários.
