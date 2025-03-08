@@ -4,7 +4,7 @@ Exercício 3 - dicionários
 Efetua um programa em python:
 
 a. Instancie o seguinte dicionário:
-Computadores_1={
+computadores_1 = {
  "Marca":"Asus",
  "Ecra":"14Pol",
  "RAM": [4, 8, 12]
@@ -41,7 +41,9 @@ else:
 # d. Acrecente 16 como novo valor de RAM.
 if "RAM" not in computadores_1:
     computadores_1["RAM"] = []
-computadores_1["RAM"].append(16)
+
+if 16 not in computadores_1["RAM"]:
+    computadores_1["RAM"].append(16)
 
 # e. Copie o dicionário para um novo usando Deep Copy().
 computadores_2 = computadores_1.copy()
