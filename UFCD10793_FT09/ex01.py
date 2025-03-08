@@ -29,14 +29,14 @@ menu = {
 }
 
 # a. Devolva o preço do "prego".
-print('Valor do prego é', menu["Prego"])
+print('Valor do prego é', menu.get("Prego"))
 
 # b. Faça o print de todas as chaves do dicionário
 print('Chaves do dicionário:', ", ".join(menu.keys()))
 
 
 # c. Acrescente na lista “omolete” com o preço de 5
-menu["omolete"] = 5
+menu.update("omolete", 5)
 
 # d. Faça o print de todo o dicionário, para visualizar as alterações.
 print('Chaves e Valores do dicionário:')
