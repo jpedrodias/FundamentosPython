@@ -43,7 +43,7 @@ print('d)', meses)
 # O mesmo exercício mas usando datetime
 import locale
 from datetime import datetime
-
+print('\n\nUsando modulo datetime')
 
 # Definir o idioma como português (importante porque os textos estão em português)
 locale.setlocale(locale.LC_TIME, 'pt_PT.UTF-8')
