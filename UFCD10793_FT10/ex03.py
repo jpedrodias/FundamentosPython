@@ -17,7 +17,7 @@ print('a)', datas_separadas)
 # b. Imprima as datas correspondentes ao ano de 2022;
 datas_2022 = []
 for data in datas_separadas:
-    if data.endswith('2022'):
+    if data.endswith('2022'):    # ou data[-4:  ? ] == '2022'
         datas_2022.append(data)
 print('b)', datas_2022)
 
@@ -25,16 +25,16 @@ print('b)', datas_2022)
 # c. Crie uma nova lista (dias) e na mesma armazena o dia de cada uma das datas. Ordene a lista de forma crescente e imprima a mesma.
 dias = []
 for data in datas_separadas:
-    dia = data[:2]
+    dia = data[0:2]     # 0:2 é o mesmo que do indice 0 até ao indice 2 (exclusivo)
     dias.append(dia)
-dias.sort()
+dias.sort()             # usei o método .sort em vez do sorted(dias) devolve uma nova lista ordenada
 print('c)', dias)
 
 
 # d. (EXTRA) Crie uma nova lista (meses) e na mesma armazena o mês de cada uma das datas. Ordene a lista de forma crescente e imprima a mesma.
 meses = []
 for data in datas_separadas:
-    mes = data[2:-4]
+    mes = data[2:-4]  # 12jan2022
     meses.append(mes)
 meses.sort()
 print('d)', meses)
