@@ -8,8 +8,17 @@ Observação: você deve remover os sinais de pontuação (".", ", ", ":", "; ",
 
 # Exercício 1
 numeros = '1, 2, 3, 4, 5, 6, 7, 8, 9, 10'
+
+# Converter string para lista de inteiros
 numeros = [int(value) for value in numeros.split(',')]
 
+# Calcular média
+print('Média desses números é', sum(numeros)/len(numeros))
+
+
+#  Exercício 1 usando a função map em alternativa ao list comprehension
+numeros = '1, 2, 3, 4, 5, 6, 7, 8, 9, 10'
+numeros = list(map(int, numeros.split(',')))
 print('Média desses números é', sum(numeros)/len(numeros))
 
 
