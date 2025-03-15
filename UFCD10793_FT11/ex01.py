@@ -11,9 +11,12 @@ def tipo_triangulo(a,b,c):
         return "Isósceles"
     else:
         return "Escaleno"
-    
 
-# Testes
+print("Triangulo Equilátero")
 print(1, 1, 1, tipo_triangulo(1,1,1)) # Equilátero
+
+print("Triangulo Isósceles")
 print(1, 1, 2, tipo_triangulo(1,1,2)) # Isósceles
+
+print("Triangulo Escaleno")
 print(1, 2, 3, tipo_triangulo(1,2,3)) # Escaleno
