@@ -4,7 +4,7 @@ Escreve uma função em Python que dada uma lista de números imprime a soma
 dos valores dessa lista, o número de elementos da lista e a media desses
 valores.
 '''
-from my_fancy_terminal import fprint, Cores
+from my_fancy_terminal import print, Colors as Cores
 
 def lista_numeros(*lista):
     soma = sum(lista)
@@ -15,14 +15,14 @@ def lista_numeros(*lista):
     print(' * Elementos:', elementos)
     print(' * Média:', media)
 
-fprint('LISTA DE NÚMEROS FLAT', cor=Cores.RED)
+print('LISTA DE NÚMEROS FLAT', color=Cores.RED)
 lista_numeros(1, 2, 3, 4, 5) # Soma: 15 Elementos: 5 Média: 3.0
 lista_numeros(10, 20, 30, 40, 50) # Soma: 150 Elementos: 5 Média: 30.0
 lista_numeros(1, 2, 3, 4, 5, 6, 7, 8, 9, 10) # Soma: 55 Elementos: 10 Média: 5.5 
 #lista_numeros([1, 2, 3, 4, 5])
 
 
-fprint('LISTA DE NÚMEROS 2D', cor=Cores.RED)
+print('LISTA DE NÚMEROS 2D', color=Cores.RED)
 def lista_numeros_flat(*lista):
     lista_flat = []
     for item in lista:
