@@ -1,4 +1,8 @@
-
+'''
+Exercício 1
+Utilizando os ficheiros fornecidos, vamos reproduzir os exemplos da apresentação. Devem colocar os ficheiros .csv na pasta onde cria as scripts python.
+Começam por abrir os ficheiros e analisar a informação nos mesmos
+'''
 
 # Alterar o diretório de trabalho para o diretório do script - necessário para quando executado no VSCode
 from os import chdir, path
@@ -12,20 +16,7 @@ chdir(workdir)
 # import pandas
 import pandas as pd
 
-class Cores:
-    RESET = '\033[0m'
-    BOLD = '\033[1m'
-    UNDERLINE = '\033[4m'
-    END = '\033[0m'
-    YELLOW = '\033[93m'
-    GREEN = '\033[92m'
-    RED = '\033[91m'
-    BLUE = '\033[94m'
-
-def cprint(texto, cor=Cores.RED):
-    print(cor + texto + Cores.END)
-
-cprint(' * ler ficheiro cast.csv para dataframe casts')
+print(' * ler ficheiro cast.csv para dataframe casts')
 casts = pd.read_csv('data/cast.csv', index_col=None)
 
 
@@ -65,3 +56,9 @@ t = titles['title']
 
 # imprimir tipo de dados de t
 print(type(t))
+
+# Obter informação geral do dataframe casts
+casts.info()
+
+# imprimir linha de indice 0 no dataframe titles
+print(titles.iloc[0])
