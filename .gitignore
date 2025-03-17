@@ -1,4 +1,6 @@
-*.ipynb_checkpoints/
+# lista de ficheiros e pastas a ignorar
+# ficheiros temporários ou secretos
+*.ipynb_checkpoints/    
 *.__pycache__/
 *.pyc
 *UFCD10793_AI2/
