@@ -89,6 +89,14 @@ print(macbeth.head())
 macbeth = t[ t['title'] == 'Macbeth'].sort_values('year')
 print(macbeth.head())
 
+
+#imprimir linhas 3 e 4 do dataframe casts
+print(casts.loc[3:4])
+
+
+c = casts
+
+
 #devolve true em cada elemento da linha correspondente à coluna n se o valor for nulo e false caso contrário
 print(c['n'].isnull().head())
 
@@ -128,7 +136,7 @@ gbmultiplecolumns = cf.groupby(['year', 'title']).size()
 gbmultiplecolumns.head()
 
 #leitura dos dados do ficheiro release_dates.csv para o dataframe release
-release = pd.read_csv('release_dates.csv', index_col=None)
+release = pd.read_csv('data/release_dates.csv', index_col=None)
 print(release.head())
 
 c_amelia = casts[ casts['title'] == 'Amelia']
