@@ -69,73 +69,72 @@ print(titles.iloc[0])
 
 
 t = titles
-#obter dataframe movies90 filtrando o dataframe t selecionando os registos cujo ano é superior e igual a 1990 e inferior a 2000
+# obter dataframe movies90 filtrando o dataframe t selecionando os registos cujo ano é superior e igual a 1990 e inferior a 2000
 movies90 = t[ (t['year']>=1990) & (t['year']<2000)]
 print(movies90.head())
 
-#obter dataframe macbeth a partir do dataframe t cujo valor na coluna title é igual a Macbeth
+# obter dataframe macbeth a partir do dataframe t cujo valor na coluna title é igual a Macbeth
 macbeth = t[ t['title'] == 'Macbeth']
 print(macbeth.head())
 
-#obter dataframe macbeth a partir do dataframe t cujo valor na coluna title é igual a Macbeth e ordenar por index
+# obter dataframe macbeth a partir do dataframe t cujo valor na coluna title é igual a Macbeth e ordenar por index
 macbeth = t[ t['title'] == 'Macbeth'].sort_index()
 print(macbeth.head())
 
-#obter dataframe macbeth a partir do dataframe t cujo valor na coluna title é igual a Macbeth e ordenar pelos values
+# obter dataframe macbeth a partir do dataframe t cujo valor na coluna title é igual a Macbeth e ordenar pelos values
 macbeth = t[ t['title'] == 'Macbeth'].sort_values('year')
 print(macbeth.head())
 
-#obter dataframe macbeth a partir do dataframe t cujo valor na coluna title é igual a Macbeth e ordenar pelos values
+# obter dataframe macbeth a partir do dataframe t cujo valor na coluna title é igual a Macbeth e ordenar pelos values
 macbeth = t[ t['title'] == 'Macbeth'].sort_values('year')
 print(macbeth.head())
 
 
-#imprimir linhas 3 e 4 do dataframe casts
+# imprimir linhas 3 e 4 do dataframe casts
 print(casts.loc[3:4])
 
 
 c = casts
 
-
-#devolve true em cada elemento da linha correspondente à coluna n se o valor for nulo e false caso contrário
+# devolve true em cada elemento da linha correspondente à coluna n se o valor for nulo e false caso contrário
 print(c['n'].isnull().head())
 
-#devolve false em cada elemento da linha correspondente à coluna n se o valor for nulo e true caso contrário
+# devolve false em cada elemento da linha correspondente à coluna n se o valor for nulo e true caso contrário
 print(c['n'].notnull().head())
 
-#devolve as primeiras linhas com valor nulo na coluna n
+# devolve as primeiras linhas com valor nulo na coluna n
 print(c[c['n'].isnull()].head(3))
 
-#substitui os valores nulos de n por 'NA'
+# substitui os valores nulos de n por 'NA'
 c_fill = c[c['n'].isnull()].fillna('NA')
 print(c_fill.head(2))
 
 
 t = titles
-#imprime as linhas do dataframe cujo valor afetos à coluna title é igual a 'Maa'
+# imprime as linhas do dataframe cujo valor afetos à coluna title é igual a 'Maa'
 print(t[t['title'] == 'Maa'])
 
-#imprime as linhas do dataframe cujp valor afetos à coluna title é inicia com a 'Maa'
+# imprime as linhas do dataframe cujp valor afetos à coluna title é inicia com a 'Maa'
 print(t[t['title'].str.startswith("Maa ")].head(3))
 
 
-#conta os valores não nulos presentes na coluna year
+# conta os valores não nulos presentes na coluna year
 print(t['year'].value_counts().head())
 
 c = casts
 
-#obtem o dataframe cf a partir de c filtrando os dados que verifiquem a condição do autor ser 'Aaron Abrams'
+# obtem o dataframe cf a partir de c filtrando os dados que verifiquem a condição do autor ser 'Aaron Abrams'
 cf = c[c['name'] == 'Aaron Abrams'] 
 
-#Agrupar os dados do dataframe anterior pela coluna year
+# Agrupar os dados do dataframe anterior pela coluna year
 print(cf.groupby(['year']).size().head())
 
 
-#group by com múltiplas colunas
+# group by com múltiplas colunas
 gbmultiplecolumns = cf.groupby(['year', 'title']).size()
 gbmultiplecolumns.head()
 
-#leitura dos dados do ficheiro release_dates.csv para o dataframe release
+# leitura dos dados do ficheiro release_dates.csv para o dataframe release
 release = pd.read_csv('data/release_dates.csv', index_col=None)
 print(release.head())
 
@@ -143,6 +142,5 @@ c_amelia = casts[ casts['title'] == 'Amelia']
 print(c_amelia.head())
 print(release [ release['title'] == 'Amelia' ].head())
 
-#imprimeir os primeiras cinco linhas do merge (fusão) c_amelia com o dataframe
-release
+# imprimeir os primeiras cinco linhas do merge (fusão) c_amelia com o dataframe release
 print(c_amelia.merge(release).head())
