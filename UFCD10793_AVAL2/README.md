@@ -1,22 +1,6 @@
-<h1>Avaliação Sumativa 2 - Pedro Dias</h1>
-<small>2025-04-05</small>
-<br>
+# Avaliação Sumativa 2 - Pedro Dias
+2025-04-05
 
-<hr>
-<ul>
+***
 
-<li> 
-    FAVEnunciadoGeral - Enunciado Geral
-</li>
-
-<li>
-    ...
-</li>
-
-</ul>
-
-
-<hr>
-
-
-
+* FAVEnunciadoGeral - Enunciado Geral
