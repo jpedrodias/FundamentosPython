@@ -4,3 +4,4 @@
 ***
 
 * FAVEnunciadoGeral - Enunciado Geral
+* FAVEnunciadoZPL - Enunciado ZPL (Zebra Programming Language)
