@@ -1,2 +1,2 @@
-# Avaliação Intermédia 2 - Pedro Dias
+# Avaliação Sumativa 2 - Pedro Dias
 

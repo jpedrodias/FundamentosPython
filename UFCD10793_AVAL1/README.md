@@ -1,4 +1,5 @@
 # Avaliação Intermédia 1 - Pedro Dias
+Avaliação Intermédia 1 - Parte 3 - Exercício 6 - CRUD System com SQLite & Flask
 Abriu: sábado, 22 de fevereiro de 2025 às 13:00
 Data limite: domingo, 9 de março de 2025 às 23:59
 
