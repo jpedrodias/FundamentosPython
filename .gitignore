@@ -3,4 +3,5 @@
 *.ipynb_checkpoints/    
 *.__pycache__/
 *.pyc
-*UFCD10793_AVAL2/*
+*.pyo
+*.pyd
