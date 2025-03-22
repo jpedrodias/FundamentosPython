@@ -1,5 +1,7 @@
 '''
 Exercício 1 - FAV Enunciado Geral
+
+Leia uma cadeia de caracteres no formato “DD/MM/AAAA” e copie o dia, mês e ano para três variáveis inteiras.
 '''
 
 # lê uma data no formato DD/MM/AAAA
