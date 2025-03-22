@@ -5,13 +5,13 @@
 <hr>
 <ul>
 
-    <li> 
-        FAVEnunciadoGeral - Enunciado Geral
-    </li>
+<li> 
+    FAVEnunciadoGeral - Enunciado Geral
+</li>
 
-    <li>
-        ...
-    </li>
+<li>
+    ...
+</li>
 
 </ul>
 
