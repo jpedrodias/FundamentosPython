@@ -3,5 +3,6 @@
 
 ***
 
-* FAVEnunciadoGeral - Enunciado Geral
-* FAVEnunciadoZPL - Enunciado ZPL (Zebra Programming Language)
+* FAVEnunciadoGeral   - Enunciado Geral
+* FAVEnunciadoZPL     - Enunciado ZPL (Zebra Programming Language)
+* FAVEnunciadoWidgets - Enunciado Jupyter Widgets
