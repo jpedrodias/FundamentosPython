@@ -1,4 +1,4 @@
-# Avaliação Sumativa 2 - Pedro Dias
+# Avaliação Sumativa Final - Pedro Dias
 2025-04-05
 
 ***
@@ -8,3 +8,4 @@
 * ❌ FAV_ZPL          - Enunciado ZPL (Zebra Programming Language)
 * ❌ FAV_WebScrapping - Enunciado Web Scrapping
 * ❌ FAV_AnaliseDados - Enunciado Análise e Visualização de Dados
+
