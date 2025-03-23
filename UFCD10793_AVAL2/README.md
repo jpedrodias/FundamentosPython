@@ -8,4 +8,3 @@
 * ❌ FAV_ZPL          - Enunciado ZPL (Zebra Programming Language)
 * ❌ FAV_WebScrapping - Enunciado Web Scrapping
 * ❌ FAV_AnaliseDados - Enunciado Análise e Visualização de Dados
-
