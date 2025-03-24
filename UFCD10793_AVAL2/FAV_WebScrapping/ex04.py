@@ -1,5 +1,5 @@
 '''
-Exercício 4 - FAV Enunciado WebScraping - Customização
+Exercício 4 - FAV Enunciado WebScraping - curso em eisnt.com
 '''
 import re
 import requests
@@ -15,7 +15,7 @@ DEBUG = False
 DUMP_TO_DISK_METHOD = DumpToDiskMethod.PANDAS
 
 
-dump_filename = 'eisnt_cursos.csv'
+dump_filename = 'ex04_eisnt_cursos.csv'
 
 # URL da página de cursos
 url = 'https://eisnt.com/'
