@@ -13,3 +13,4 @@ NEW_LINE = "\n"
 filename = "data/novo_ficheiro.txt"
 with open(filename, "a") as ficheiro:
     ficheiro.write("Linha adicional" + NEW_LINE)
+
