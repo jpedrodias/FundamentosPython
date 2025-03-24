@@ -1,4 +1,3 @@
-
 '''
 Exercício 1 - FAV Enunciado WebScraping - BeautifulSoup
 '''
