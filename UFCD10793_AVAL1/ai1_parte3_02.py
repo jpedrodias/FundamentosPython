@@ -1,7 +1,5 @@
 '''
 Avaliação Intermédia 1 - Parte 3 - Exercício 2
-
-
 '''
 
 from os import chdir, getcwd, path
