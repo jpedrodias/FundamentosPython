@@ -9,3 +9,4 @@ try:
     print("Número inserido:", numero)
 except ValueError:
     print("Erro: O valor deve ser um número inteiro.")
+
