@@ -3,8 +3,7 @@ Exercício 4 - FAV Enunciado WebScraping - FlaskApp
 '''
 from flask import Flask, render_template, request
 
-import re
-import requests
+import re, requests
 from bs4 import BeautifulSoup
 
 
