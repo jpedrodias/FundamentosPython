@@ -6,7 +6,6 @@ Depois de iniciada a conexão à base de dados, é executada a instrução SQL p
 É chamado o método `fetchall()` para obter todos os resultados da consulta.
 
 Por fim, é feito um loop para exibir os resultados.
-
 '''
 
 from os import chdir, getcwd, path
@@ -33,4 +32,3 @@ for funcionario in funcionarios:
     print(f'ID: {id}, Nome: {nome}, Cargo: {cargo}, Salário: {salario}')
 
 conn.close()
-
