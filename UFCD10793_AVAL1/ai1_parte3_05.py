@@ -26,5 +26,4 @@ SQL_DELETE_FUNCIONARIOS = "DELETE FROM funcionarios WHERE salario < 3000.00"
 cursor.execute(SQL_DELETE_FUNCIONARIOS)
 conn.commit()
 
-
 conn.close()
