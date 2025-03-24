@@ -11,7 +11,7 @@ class DumpToDiskMethod(Enum):
     CSV = auto()
 #end class
 
-DEBUG = True
+DEBUG = False
 DUMP_TO_DISK_METHOD = DumpToDiskMethod.PANDAS
 
 
@@ -88,3 +88,4 @@ if DUMP_TO_DISK_METHOD == DumpToDiskMethod.CSV:
     #end with
 #end if
 
+print(f'Dados salvos em {dump_filename}')
