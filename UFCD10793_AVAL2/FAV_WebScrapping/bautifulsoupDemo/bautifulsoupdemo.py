@@ -61,3 +61,4 @@ if DUMP_TO_DISK_METHOD == DumpToDiskMethod.CSV:
         writer.writeheader()
         writer.writerows(data)
     #end with
+#end if
