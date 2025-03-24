@@ -12,3 +12,4 @@ except ZeroDivisionError:
     print("Erro: Não é possível dividir por zero.")
 except ValueError:
     print("Erro: Apenas números inteiros são permitidos.")
+
