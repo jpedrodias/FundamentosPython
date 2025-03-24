@@ -17,3 +17,4 @@ except FileNotFoundError:
     print("Erro: O ficheiro não foi encontrado.")
 except Exception as e:
     print("Erro: inesperado", e)
+
