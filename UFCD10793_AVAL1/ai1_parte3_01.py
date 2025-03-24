@@ -25,3 +25,4 @@ if os.path.exists('data/empresa.sqlite'):
     print('Ficheiro empresa.sqlite existe.')
 else:
     print('Ficheiro empresa.sqlite não existe.')
+
