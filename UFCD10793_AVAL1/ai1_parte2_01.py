@@ -15,3 +15,4 @@ filename = "data/exemplo.txt"
 with open(filename, "r") as ficheiro:
     conteudo = ficheiro.read()
     print(conteudo)
+
