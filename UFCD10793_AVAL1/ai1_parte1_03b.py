@@ -15,3 +15,4 @@ if os.path.exists(caminho):
         print("Erro: inesperado", e)
 else:
     print("Erro: O ficheiro não foi encontrado.")
+
