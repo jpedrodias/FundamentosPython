@@ -19,3 +19,4 @@ except ZeroDivisionError:
     print('Não é possível a divisão de por zero')
 finally:
     pass
+
