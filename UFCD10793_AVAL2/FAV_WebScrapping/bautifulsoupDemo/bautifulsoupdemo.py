@@ -9,6 +9,7 @@ from enum import Enum, auto
 class DumpToDiskMethod(Enum):
     PANDAS = auto()
     CSV = auto()
+    SQLITE = auto()
 
 #DUMP_TO_DISK_METHOD = DumpToDiskMethod.PANDAS
 DUMP_TO_DISK_METHOD = DumpToDiskMethod.CSV
