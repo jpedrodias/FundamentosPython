@@ -9,7 +9,4 @@ Avaliação Intermédia 1 - Parte 3 - Exercício 6 - CRUD System com SQLite & Fl
 
 * abrir http://localhost:5000/ no browser
 
-
 '''
-
-
