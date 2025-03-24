@@ -12,3 +12,4 @@ filename = "data/exemplo.txt"
 with open(filename, "r") as ficheiro:
     for linha in ficheiro:
         print(linha.strip())
+
