@@ -17,4 +17,3 @@ pip install beautifulsoup4 html5lib requests scrapy selenium
 * Atividade 3 - scrappyDemo
 * Atividade 4 - Customização 
   * listagem de curso em eisnt.com (ex04.py & FlaskApp)
-
