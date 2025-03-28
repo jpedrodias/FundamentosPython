@@ -19,7 +19,7 @@ def gerar_etiquetas(csv_path):
     rotation = '0'
     labelary_url = f'https://api.labelary.com/v1/printers/{dpi}/labels/{size}/{rotation}/'
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
-    source = filedialog.askopenfilename(title="Selecione o arquivo CSV", filetypes=[("CSV files", "*.csv")])
+    #source = 'data/produtos.csv' # escolhido pelo utilizador
     output_png = os.path.join(os.getcwd(), 'data', 'etiqueta_{}.png')
     output_pdf = os.path.join(os.getcwd(), 'data', 'etiquetas.pdf')
     output_folder = os.path.join(os.getcwd(), 'data')
@@ -65,4 +65,57 @@ def gerar_etiquetas(csv_path):
     
     label_width, label_height = 800, 400
 
+    c = canvas.Canvas(output_pdf, pagesize=A4)
+    labels_per_page = 0
+
+    x, y = x_margin, page_height - y_margin - label_height * 0.24
+
+    for i, path in enumerate(etiquetas_paths):
+        img = Image.open(path)
+        img.thumbnail((label_width * 0.24, label_height * 0.24))
+        img_path_temp = os.path.join(output_folder, f'_temp_{i}.png')
+        img.save(img_path_temp, 'png')
+
+        c.drawImage(img_path_temp, x, y)
+        x += img.width + x_spacing
+        if x + img.width > page_width - x_margin:
+            x = x_margin
+            y -= img.height + y_spacing
+            if y < y_margin:
+                c.showPage()
+                x = x_margin
+                y = page_height - y_margin - img.height
+        labels_per_page += 1
     
+    c.save()
+    print(f'✓ PDF gerado com sucesso: {output_pdf}')
+    messagebox.showinfo("Concluído", f"PDF gerado com sucesso: {output_pdf}")
+
+    import glob
+    for file in glob.glob(os.path.join(output_folder, '_temp_*.*')):
+        os.remove(file)
+
+
+# Função chamada ao clicar no cotão "Selecionar CSV"
+def escolher_csv_onclick():
+    file_path = filedialog.askopenfilename(
+        title="Selecione o ficheiro CSV",
+        filetypes=[("Ficheiros CSV", "*.csv")]
+    )
+    if file_path:
+        gerar_etiquetas(file_path)
+
+
+# Interface gráfica (Tkinter) 
+janela = tk.Tk()
+janela.title("Gerador de Etiquetas")
+janela.geometry("360x200")
+
+label = tk.Label(janela, text="Seleciona um ficheiro CSV com colunas 'nome' e 'codigo'")
+label.pack(pady=20)
+
+botao = tk.Button(janela, text="Selecionar CSV", command=escolher_csv_onclick)
+botao.pack()
+
+janela.mainloop()
+
