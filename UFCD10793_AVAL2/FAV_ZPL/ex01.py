@@ -1,6 +1,6 @@
 import requests
 
-zpl = "^XA^F050,50^A0N,50,50^FDOlá Mundo!^FS^XZ"
+zpl = "^XA^F050,50^A0N,50,50^FDOla Mundo!^FS^XZ"
 url = "https://api.labelary.com/v1/printers/8dpmm/labels/4x6/0/"
 
 headers = {'Content-Type': 'application/x-www-form-urlencoded'}
