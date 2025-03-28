@@ -21,7 +21,7 @@ class Config:
     rotation = '0'
     labelary_url = f'https://api.labelary.com/v1/printers/{dpi}/labels/{size}/{rotation}/'
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
-    source = 'data/sample02.csv'
+    source = 'data/produtos.csv'
     output = 'data/etiqueta_{}.png'
 
 
