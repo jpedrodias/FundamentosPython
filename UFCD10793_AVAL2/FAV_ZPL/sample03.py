@@ -71,7 +71,7 @@ class PdfConfig:
     x_margin, y_margin = 30, 30
     x_spacing, y_spacing = 20, 20
     
-    label_width, label_height = 800, 400
+    label_width, label_height = 800, 480
     
 
 
