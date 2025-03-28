@@ -82,7 +82,7 @@ for i, path in enumerate(etiquetas_paths):
     img = Image.open(path)
     img.thumbnail((PdfConfig.label_width * 0.24, PdfConfig.label_height * 0.24))
     img_path_temp = os.path.join(Config.output_folder, f'_temp_{i}.png')
-    img.save(img_path_temp, 'JPEG')
+    img.save(img_path_temp, 'png')
 
     c.drawImage(img_path_temp, x, y)
 
