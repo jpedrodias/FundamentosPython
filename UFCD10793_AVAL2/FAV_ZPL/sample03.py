@@ -23,6 +23,7 @@ class Config:
     headers = {'Content-Type': 'application/x-www-form-urlencoded'}
     source = 'data/produtos.csv'
     output_png = 'data/etiqueta_{}.png'
+    output_folder = 'data/'  # Pasta de saída para as etiquetas
 
 
 # Lê os dados do CSV e gera etiquetas
@@ -45,7 +46,7 @@ with open(Config.source, mode='r', encoding='utf-8') as csvfile:
         response = requests.post(Config.labelary_url, headers=Config.headers, data=zpl.strip().encode('utf-8'))
 
         if response.status_code == 200:
-            output_filename = Config.output_png.format(i+1)
+            output_filename = Config.output.format(i+1)
             with open(output_filename, 'wb') as f:
                 f.write(response.content)
             print(f'Etiqueta {i+1} gerada com sucesso: {nome}')
