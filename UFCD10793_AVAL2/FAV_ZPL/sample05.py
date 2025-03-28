@@ -156,4 +156,3 @@ tamanho_combo.set("4x6")
 tk. Button(janela, text="Gerar Etiquetas", bg="#4CAF50", fg="white", height=2, command=iniciar_geracao).pack(pady=15)
 
 janela.mainloop()
-
