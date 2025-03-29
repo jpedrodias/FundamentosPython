@@ -12,5 +12,4 @@ Enunciados: Geral, Jupyter Widgets, Web Scrapping e Análise e Visualização de
 * ❌ FAV_ZPL          - Enunciado ZPL (Zebra Programming Language)
 * ❌ FAV_Flask        - Enunciado Flask
 * ❌ FAV_Django       - Enunciado Django
-
-
+* ❌ FAV_SegmentacaoTexto 
