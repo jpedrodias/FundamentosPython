@@ -13,6 +13,4 @@ pip install nltk spacy pandas
 python -m spacy download pt_core_news_sm
 ```
 
-
 spacy.load('pt_core_news_sm')
-
