@@ -1,5 +1,5 @@
 '''
-Sample 7 - FAV Enunciado ZPL (page 20)
+Sample 8 - FAV Enunciado ZPL (page 20)
 '''
 
 import os, csv, tkinter as tk
