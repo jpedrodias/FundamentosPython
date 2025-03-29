@@ -1,7 +1,7 @@
 # Avaliação Sumativa Final - Pedro Dias
-2025-04-05 (em construção: 4 de 5)
+2025-04-05 (em construção: 4 de 8)
 
-Enunciados: Geral, Jupyter Widgets, Web Scrapping e Análise e Visualização de Dados
+Terminados: Geral, Jupyter Widgets, Web Scrapping e Análise e Visualização de Dados
 
 ***
 
@@ -12,4 +12,4 @@ Enunciados: Geral, Jupyter Widgets, Web Scrapping e Análise e Visualização de
 * ❌ FAV_ZPL          - Enunciado ZPL (Zebra Programming Language)
 * ❌ FAV_Flask        - Enunciado Flask
 * ❌ FAV_Django       - Enunciado Django
-* ❌ FAV_SegmentacaoTexto 
+* ❌ FAV_SegmentacaoTexto - Enunciado Segmentação de Texto
