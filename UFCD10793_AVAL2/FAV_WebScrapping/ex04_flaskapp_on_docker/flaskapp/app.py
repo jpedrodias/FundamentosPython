@@ -20,7 +20,6 @@ DATABASE_PATH = path.join(workdir, DATABASE_FILE)
 
 db = SQLAlchemy()
 
-
 # Database Model
 class ScrapedEvent(db.Model):
     id = db.Column(db.Integer, primary_key=True)

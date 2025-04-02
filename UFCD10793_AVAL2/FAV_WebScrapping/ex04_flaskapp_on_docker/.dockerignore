@@ -1,0 +1,10 @@
+**/__pycache__/
+**/.dist/
+**/venv/
+**/.git/
+.env
+.flaskapp.env
+.vscode
+.dockerignore
+docker-compose.yml
+Dockerfile

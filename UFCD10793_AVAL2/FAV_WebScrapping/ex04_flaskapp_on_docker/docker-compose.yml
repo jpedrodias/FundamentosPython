@@ -1,0 +1,28 @@
+services:
+  flaskapp:
+    container_name: ${FLASK_APP_NAME}
+    #command: ./run.sh ${FLASK_APP_FILE} # opcional / replaces endpoint & cmd
+    command: python ${FLASK_APP_FILE}
+    restart: unless-stopped
+    env_file: 
+    - .env
+    build:
+      context: .
+      dockerfile: flaskapp.Dockerfile
+    ports:
+      - ${FLASK_APP_PORT}:5000
+    environment:
+      - DEBUG=${FLASK_APP_DEBUG}
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ./flaskapp/:/app
+    security_opt:
+      - no-new-privileges:true
+    networks:
+      - default
+
+networks:
+  default:
+    name: flaskapps-network
+    #external: true # uncomment this on production
+    driver: bridge
