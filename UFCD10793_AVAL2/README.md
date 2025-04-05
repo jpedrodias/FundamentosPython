@@ -1,5 +1,5 @@
 # Avaliação Sumativa Final - Pedro Dias
-2025-04-05 (em construção: 4 de 8)
+2025-04-05 (em construção: 4 de 9)
 
 Terminados: Geral, Jupyter Widgets, Web Scrapping e Análise e Visualização de Dados
 
