@@ -25,3 +25,4 @@ Referências:
 Nota:
 * [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)
 * [KISS - "Keep it simple, stupid"](https://en.wikipedia.org/wiki/KISS_principle)
+

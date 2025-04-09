@@ -191,9 +191,12 @@ def index():
     return render_template('index.html', cursos=cursos, last_scrap = last_scrap)
 
 
-@app.route('/download/<filename>')
-def download(filename=None):
+@app.route('/download/<path:filename>')
+def download(filename=''):
 
+    if not filename:
+        abort(400, description='Ficheiro não especificado.')
+        
     data = []
     events = ScrapedEvent.query.order_by(ScrapedEvent.data.desc()).all()
     for event in events:
