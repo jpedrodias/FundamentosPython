@@ -1,11 +1,63 @@
 # Fundamentos de Python
 
-> Entidade Formadora: [EISnt](https://eisnt.com/)
->
-> Duração: 50h
-> 
-> 2025-01 - 2025-04
 
+## Duração
+* 50h 00m
+
+## Horário
+* Pós-laboral
+* Forma de organização predominante
+* Formação em B-learning (turma)
+
+
+## Resumo do Conteúdo Programático
+* Introdução ao Python
+* Definição e vantagens sobre outras linguagens
+* Diferenças entre versões
+* Anaconda e ambientes de desenvolvimento
+* IDE’s (Spyder e VS Code)
+* Introdução ao Jupyter Notebook
+* Primeiro programa em Python
+* Python crash course
+* Utilizações de Python
+* Tratamento de dados de várias fontes: TEXTO, CSV, SQL, XLS
+* Listas, variáveis e dicionários
+* Controlo do programa (for, while,if)
+* Ficheiros e iteradores
+* Benchmark
+* Profilers de memória e CPU
+* Widgets
+* Geradores
+* Conceitos genéricos de programação em Pyhton
+* Tipos de dados
+* Programação condicional
+* Funções
+* Iterações
+* Classes
+* Construtores
+* Métodos e atributos
+* Herança
+* Decoradores
+* Bibliotecas
+* Introdução ao Pandas e NumPy
+* Análise gráfica com Mapplotlib
+* Importação de SQL, CSV
+* Testes unitários
+* Projeto de programação
+
+
+## Objectivos Gerais:
+* Instalar e organizar o ambiente de desenvolvimento.
+* Elaborar pequenos scripts em Python.
+* Utilizar módulos e bibliotecas.
+* Implementar testes unitários.
+
+## Metodologia formativa
+* Método Interrogativo, Ativo, Expositivo e Demonstrativo
+
+## Metodologia de avaliação
+* Avaliação formativa/contínua
+* Avaliação sumativa
 
 * * * 
 
@@ -25,4 +77,5 @@ Referências:
 Nota:
 * [PEP 20 – The Zen of Python](https://peps.python.org/pep-0020/)
 * [KISS - "Keep it simple, stupid"](https://en.wikipedia.org/wiki/KISS_principle)
+
 
